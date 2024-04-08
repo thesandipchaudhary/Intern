@@ -65,7 +65,7 @@ CREATE TABLE Books (
 INSERT INTO Books
 VALUES (NULL, 'Java', 'second', '1000', '12-345', '2024');
 
-SELECT b.Title,a.Name
+SELECT b.Title
 FROM Books b
 INNER JOIN Authors a ON b.ID=a.Bookid;
 
