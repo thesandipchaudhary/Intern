@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "W/ZGqiH8Yfq6v+uu5msAzzzBCefwHOUzovhAJpcC0vGCYRReJlR2ZKtQeiqrEbqYAaEzblaA+vm84XzU3yosJA==",
+  "dgSpecHash": "GVND8v8JVfR726V6083e/DwX5QvJ3OnJxCEo6LFcr8PEWHTM6aKyYeqH/PyQJTo5JotesCAcksEHGJnKZoxINQ==",
   "success": true,
   "projectFilePath": "/Users/sandipchaudhary/Documents/Training/Intern/Day 6/Day 8/basic/basic.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/sandipchaudhary/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/sandipchaudhary/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/sandipchaudhary/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.18/microsoft.netcore.app.host.osx-arm64.7.0.18.nupkg.sha512"
+  ],
   "logs": []
 }

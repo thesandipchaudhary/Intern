@@ -13,3 +13,4 @@
 /Users/sandipchaudhary/Documents/Training/Intern/Day 6/Day 8/basic/obj/Debug/net7.0/basic.pdb
 /Users/sandipchaudhary/Documents/Training/Intern/Day 6/Day 8/basic/obj/Debug/net7.0/basic.genruntimeconfig.cache
 /Users/sandipchaudhary/Documents/Training/Intern/Day 6/Day 8/basic/obj/Debug/net7.0/ref/basic.dll
+/Users/sandipchaudhary/Documents/Training/Intern/Day 6/Day 8/basic/obj/Debug/net7.0/basic.sourcelink.json

@@ -1,4 +1,4 @@
-class Rectangle
+class Rectangle:IShape
 {
     public Rectangle(double l,double b)
     {
