@@ -16,7 +16,6 @@ class LINQ
         var square=ages.Select(ages=>ages*age);
         var odds=ages.where(x=>x%2==1);
 
-        var even=ages.where(age=>age%2==0)
-        .Select(age => age * age * age);
+        var even=ages.where(age=>age%2==0).Select(age => age * age * age);
     }
 
