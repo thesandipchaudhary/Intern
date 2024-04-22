@@ -1,10 +1,10 @@
-class Circle{
-    double radius;
+public class Circle{
+    public double radius;
  public Circle(double r)
  {
     radius=r;
  }
- public double GetArea()
+ public virtual double GetArea()
  {
     return Math.PI*radius*radius;
 }

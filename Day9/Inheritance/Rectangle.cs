@@ -1,4 +1,4 @@
-class Rectangle:IShape
+public class Rectangle:IShape
 {
     public Rectangle(double l,double b)
     {
@@ -8,7 +8,7 @@ class Rectangle:IShape
     double length;
     double breadth;
 
-    public double GetArea() => return length*breadth;
+    public double GetArea() =>length*breadth;
     
-    public double GetPerimeter() => returl 2*(length*breadth);
+    public double GetPerimeter() => 2*(length*breadth);
 }

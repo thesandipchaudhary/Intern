@@ -26,9 +26,11 @@
 // var sa=square1.GetArea();
 
 
-var c=new Circle(5.6);
-var cc=c.GetArea();
-var c2=c.Perimeter();
+// var c=new Circle(5.6);
+// var cc=c.GetArea();
+// var c2=c.Perimeter();
 
-Console.WriteLine("Area of circle "+cc);
-Console.WriteLine("Perimeter of circle "+c2);
+// Console.WriteLine("Area of circle "+cc);
+// Console.WriteLine("Perimeter of circle "+c2);
+Parallelll parallel=new();
+parallel.ProcessNumbers();
