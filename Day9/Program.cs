@@ -32,5 +32,24 @@
 
 // Console.WriteLine("Area of circle "+cc);
 // Console.WriteLine("Perimeter of circle "+c2);
-Parallelll parallel=new();
-parallel.ProcessNumbers();
+
+// Parallelll parallel=new();
+// parallel.ProcessNumbers();
+
+BasicDBContext Db=new();
+var teacher1 =new Teacher
+{
+    Name="Ram",
+    Address="Ghorahi",
+    Gender='M',
+    Qualification="BCA",
+    Dob=new DateTime(2005,6,5)
+};
+Db.Teachers.Add(teacher1);
+Db.SaveChanges();
+
+var teachers=Db.Teachers.ToList();
+foreach(var teacher in teachers)
+{
+    Console.WriteLine($"Name{teacher.Name} Dob{teacher.Dob}");
+}
