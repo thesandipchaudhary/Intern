@@ -39,16 +39,17 @@
 BasicDBContext Db=new();
 var teacher1 =new Teacher
 {
-    Name="Ram",
+    Name="Sita",
     Address="Ghorahi",
-    Gender='M',
+    Gender='F',
     Qualification="BCA",
     Dob=new DateTime(2005,6,5)
 };
 Db.Teachers.Add(teacher1);
 Db.SaveChanges();
 
-var teachers=Db.Teachers.ToList();
+// var teachers=Db.Teachers.ToList();
+var teachers=Db.Teachers.Where(x=>x.Gender=='F' && x.Address=="Dang").ToList();
 foreach(var teacher in teachers)
 {
     Console.WriteLine($"Name{teacher.Name} Dob{teacher.Dob}");
